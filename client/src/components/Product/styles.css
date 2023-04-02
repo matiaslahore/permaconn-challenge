@@ -1,0 +1,30 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image-button {
+  margin: 0px 5px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.image-element {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
